@@ -57,8 +57,7 @@ public class ATM {
 				System.out.println("Incorrect user ID/pin combination. " + "Please try again");
 			}
 
-		} while (authUser == null); // continue looping until we have a
-									// successful login
+		} while (authUser == null); // continue looping until we have a successful login
 
 		return authUser;
 
